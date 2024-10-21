@@ -2,7 +2,7 @@
 FROM openjdk:11-jdk-slim
 
 # Set working directory
-WORKDIR /usr/src/app
+WORKDIR /usr/src/java-proj
 
 # Copy the Java file into the container
 COPY app.java .
